@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.page-main {
+	margin: 20px auto;
+	width: 900px;
+}
+.calculator-main-con {
+	display: inline-block;
+	width: 100%;
+}
+.calculator-figures {
+	float: left;
+	width: 50%;
+	padding: 20px;
+	background-color: rgb(220, 250, 250);
+}
+.calculator-figures input[type="text"],
+.calculator-figures input[type="number"] {
+	width: 110px;
+}
+.calculator-figures input::-webkit-outer-spin-button,
+.calculator-figures input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.calculator-figures input[type="number"] {
+  	-moz-appearance: textfield;
+}
+.calculator-details {
+	float: left;
+	width: 50%;
+	padding: 20px;
+}
+.calculate-figitem {
+	display: flex;
+	width: 100%;
+	column-gap: 10px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.calculate-figitem .calc-item-label {
+	display: inline-block;
+	flex: 0 0 150px;
+	padding: 0 10px 0 0;
+	text-align: right;
+}
+.calculate-figitem .calc-item-val {
+	display: flex;
+	flex: 0 0 250px;
+	column-gap: 10px;
+	align-items: center;
+}
+.calc-item-subfield .chkradio-field {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.chkradio-field input[type="radio"],
+.chkradio-field input[type="checkbox"] {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.loan-summry-ditms {
+	display: flex;
+	width: 100%;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+.loan-summry-ditms .summry-ditm-con {
+	flex: 0 0 50%;
+	padding: 20px 0;
+}
